@@ -1,0 +1,68 @@
+*{
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease-in-out .2s;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(26, 26, 184, 0.627);
+}
+
+.container{
+    
+    width: 550px;
+    height: 400px;
+
+}
+
+.header{
+    font-size: 1.2em;
+    border: 2px solid black;
+    background-color: blueviolet;
+    width: 80%;
+    margin: 10px auto;
+    padding: .8em;
+    border-radius: 5px;
+    color: bisque;
+}
+
+.mainContent{
+    background-color: beige;
+    height: 200px;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    padding: 30px;
+}
+
+.textArea{
+    font-size: 1.2em;
+}
+
+.person{
+    padding:20px 0;
+    color: brown;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#newQuote{
+    padding: 10px 20px ;
+    font-weight: 600;
+    color: beige;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+#newQuote:active{
+    background-color: rgb(0, 0, 118);
+}
